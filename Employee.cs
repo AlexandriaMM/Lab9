@@ -1,9 +1,9 @@
 using System;
 class Employee {
-  public string firstname{get; set;}
-  public string lastname{get; set;}
-  public string id{get; set;}
-  public int age{get; set;}
+  private string firstname;
+  private string lastname;
+  private string id;
+  private int age;
   private string address;
   private string phonenumber;
   private string title;
