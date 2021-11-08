@@ -7,12 +7,11 @@ class Program {
     employee1.Intro();
     
     //employee using constructer with parameters
-    //testing Increase Salary Method
     Employee employee2 = new Employee("Robert", "Downey", "1", 18);
     employee2.Intro();
 
     //employee using constructer with parameters
-    //testing RemoveEmployee method
+    //testing IncreaseSalary and RemoveEmployee
     Employee employee3 = new Employee("John", "Smith", "S0089", 38);
     employee3.Yearlysalary = 50000;
     employee3.Intro();
@@ -20,7 +19,7 @@ class Program {
     employee3.RemoveEmployee();
 
     //employee using constructor with parameters
-    //testing Increase Salary
+    //testing IncreaseSalary and RemoveEmployee
     Employee employee4 = new Employee ("Maria", "Lambert", "S0010", 26);
     employee4.IncreaseSalary(7);
     employee4.RemoveEmployee();
